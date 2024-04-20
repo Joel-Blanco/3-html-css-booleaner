@@ -7,10 +7,23 @@ body {
     margin:0;
 }
 
+h1 {
+    font-size:40px;
+    margin-bottom:0px;
+}
+
 .logo {
     width: 200px;
 }
-h1 {
-font-size:40px;
-margin-bottom:0px;
+
+#align {
+    margin-bottom:20px;
+}
+
+#align-top {
+    margin-top:0px;
+}
+
+.grey {
+    color:#808080;
 }
