@@ -8,16 +8,20 @@ body {
 }
 
 h1 {
-    font-size:40px;
+    font-size:38px;
     margin-bottom:0px;
 }
 
+span {
+    color:#4eb5ff;
+}
 .logo {
     width: 200px;
 }
 
 #align {
     margin-bottom:20px;
+    font-size:small;
 }
 
 #align-top {
@@ -26,4 +30,12 @@ h1 {
 
 .grey {
     color:#808080;
+}
+
+#bigger {
+    font-size:large;
+}
+
+.photo-footer {
+    font-size:75%;
 }
