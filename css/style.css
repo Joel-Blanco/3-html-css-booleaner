@@ -20,6 +20,11 @@ main {
 span {
     color:#4eb5ff;
 }
+
+ul {
+    margin-left:-20px;
+    margin-top: 30px;
+}
 .logo {
     width: 200px;
 }
@@ -45,19 +50,18 @@ span {
     font-size:75%;
 }
 
-.footer {
+.foot {
     background-color:#313a6b;
-    padding:5px;
+    padding:20px 0px;
     color:white;
     font-size: smaller;
     text-align:center;
 }
 
 table {
-    border-collapse:collapse;
-    margin-bottom:40px;
     margin-top:40px;
     width:100%;
+    margin-bottom:40px;
 }
 
 thead tr {
@@ -70,12 +74,16 @@ tbody tr:nth-child(odd) {
     background-color: #dfe5f2; }
 
 table tr td {
-    padding:9px;
+    padding:2px;
      
 }table th {
-    border:2px solid white;
+    border:1% solid white;
 }
 
 table td {
-    border:2px solid white;
+    border:1% solid white;
+}
+
+.sizing {
+    width:50%;
 }
