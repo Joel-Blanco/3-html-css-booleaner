@@ -12,6 +12,11 @@ h1 {
     margin-bottom:0px;
 }
 
+main {
+    padding-left:15px;
+    padding-right:15px;
+}
+
 span {
     color:#4eb5ff;
 }
@@ -48,19 +53,29 @@ span {
     text-align:center;
 }
 
-.content-table {
+table {
     border-collapse:collapse;
-    margin: 25px 0;
-    min-width:fit-content;
+    margin-bottom:40px;
+    margin-top:40px;
+    width:100%;
 }
 
-.content-table thead tr {
+thead tr {
     background-color:#7fa6fb;
     color:white;
     text-align:left;
 }
 
-.content-table th,
-.content-table td {
-    padding:12px 15px;
+tbody tr:nth-child(odd) {
+    background-color: #dfe5f2; }
+
+table tr td {
+    padding:9px;
+     
+}table th {
+    border:2px solid white;
+}
+
+table td {
+    border:2px solid white;
 }
